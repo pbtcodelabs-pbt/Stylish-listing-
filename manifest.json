@@ -1,0 +1,27 @@
+{
+  "name": "Stylish Listing",
+  "short_name": "Stylish Listing",
+  "description": "گراسری اور سامان کی لسٹ بنانے کی ایپ",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b3d2e",
+  "theme_color": "#0b3d2e",
+  "dir": "rtl",
+  "lang": "ur",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
