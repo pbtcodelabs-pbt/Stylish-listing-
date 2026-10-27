@@ -1,5 +1,5 @@
 // سروس ورکر — آف لائن/آن لائن دونوں طرح ایپ چلانے کے لیے
-const CACHE_VERSION = 'SL008tu1257';
+const CACHE_VERSION = 'SL009tu2140';
 const CACHE_NAME = 'saman-list-cache-' + CACHE_VERSION;
 const APP_SHELL = [
   './',
