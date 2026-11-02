@@ -212,6 +212,7 @@
 <div class="app-wrapper">
   <div id="license-bar" class="license-bar trial"></div>
   <div class="app-header">
+    <button class="gear-btn" onclick="openHelpDesk()" title="PBT Help Desk" style="left:44px;width:auto;background:none;border:0;padding:0">🆘</button>
     <button class="gear-btn" onclick="openControlPanelGate()">⚙️</button>
     <h1>📦 سامان کی لسٹ</h1>
     <button class="price-list-btn" onclick="openPriceList()">💰 پرائس لسٹ</button>
@@ -568,7 +569,7 @@ if('serviceWorker' in navigator){
 }
 </script>
 <script>
-/* 👁️ (ہر PIN/پاس ورڈ خانہ) SL010mo0411: پاس ورڈ کے خانوں میں آنکھ کا بٹن — ایک بار دبائیں تو پاس ورڈ صاف نظر آئے، دوبارہ دبائیں تو چھپ جائے؛
+/* 👁️ (ہر PIN/پاس ورڈ خانہ) SL011mo0505: پاس ورڈ کے خانوں میں آنکھ کا بٹن — ایک بار دبائیں تو پاس ورڈ صاف نظر آئے، دوبارہ دبائیں تو چھپ جائے؛
    جب تک خود نہ دبائیں، ویسا ہی رہتا ہے (دبائے رکھنے کی ضرورت نہیں) */
 (function(){
   var SVG = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
@@ -628,6 +629,6 @@ if('serviceWorker' in navigator){
   try{ new MutationObserver(function(){ if(!queued){ queued = true; requestAnimationFrame(scan); } }).observe(document.documentElement, {childList:true, subtree:true}); }catch(e){}
 })();
 </script>
-<script src="https://pbtcodelabs-pbt.github.io/help/widget.js" data-app="Stylish-listing-" data-ver="SL010mo0411" data-float="1" defer></script> <!-- 🆘 SL010mo0411: PBT Help Desk -->
+<script src="https://pbtcodelabs-pbt.github.io/help/widget.js" data-app="Stylish-listing-" data-ver="SL011mo0505" defer></script> <!-- 🆘 SL011mo0505: PBT Help Desk -->
 </body>
 </html>
