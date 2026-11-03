@@ -31,6 +31,8 @@ self.addEventListener('activate', function(event){
 
 // کیش-فرسٹ حکمت عملی، انٹرنیٹ نہ ہونے پر بھی ایپ کھلتی رہے گی
 self.addEventListener('fetch', function(event){
+  /* ہیلپ ڈیسک (#33): pbtcodelabs-pbt.github.io/help/ کی فائلیں (widget.js) کبھی کیش نہیں — ہر ایپ میں نیا بٹن فوراً */
+  try { const _hd = new URL(event.request.url); if (_hd.hostname === 'pbtcodelabs-pbt.github.io' && _hd.pathname.startsWith('/help/')) return; } catch (_e) {}
   if (event.request.method !== 'GET') return;
   event.respondWith(
     caches.match(event.request).then(function(cached){
